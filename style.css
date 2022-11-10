@@ -36,77 +36,67 @@ a:hover {
     background-color: #ffffff;
     text-shadow: 1px black;
 }
-@media screen and (max-width: 1652px) {
-    .navbar, a {
-        text-decoration: none;
-        text-align: right;
-        color: #606060;
-        margin: 0 4rem;
-        font-size: 3rem;
-        transition: all;
-        transition-duration: 5s;
-        font-style: italic;
-        font-weight: bolder;
+@media screen and (max-width: 350px) {
+*{
+    display: none;
 }
-    @media screen and (max-width: 1375px) {
-        .navbar, a {
-            text-decoration: none;
-            text-align: right;
-            color: #606060;
-            margin: 0 4rem;
-            font-size: 2rem;
-            transition: all;
-            transition-duration: 5s;
-            font-style: italic;
-            font-weight: bolder;
-        }
-        @media screen and (max-width: 1100px) {
-            .navbar, a {
-                text-decoration: none;
-                text-align: right;
-                color: #606060;
-                margin: 0 0;
-                font-size: 2.2rem;
-                transition: all;
-                transition-duration: 5s;
-                font-style: italic;
-                font-weight: bolder;
-            }
-            @media screen and (min-width: 768px) {
-                .navbar, a {
-                    text-decoration: none;
-                    text-align: right;
-                    color: #606060;
-                    margin: 0 1rem;
-                    font-size: 2.2rem;
-                    transition: all;
-                    transition-duration: 5s;
-                    font-style: italic;
-                    font-weight: bolder;
-                }
-                @media screen and (min-width: 992px) {
-                    .navbar, a {
-                        text-decoration: none;
-                        text-align: right;
-                        color: #606060;
-                        margin: 0 1rem;
-                        font-size: 2.7rem;
-                        transition: all;
-                        transition-duration: 5s;
-                        font-style: italic;
-                        font-weight: bolder;
+}
+@media screen and (min-width: 350px) {
+    .none{
+        display: none;
+    }
+    .navbar a {
+        margin: 0 0 0 0;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 600px) {
+    .none{
+        display: unset;
+    }
+    .navbar a {
+        margin: 0 1rem;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .none {
+        display: unset;
+    }
 
-                    @media screen and (max-width: 600px) {
-                        .navbar, a {
-                            text-decoration: none;
-                            text-align: right;
-                            color: #606060;
-                            margin: 0 0rem;
-                            font-size: 1rem;
-                            transition: all;
-                            transition-duration: 5s;
-                            font-style: italic;
-                            font-weight: bolder;
-                        }
-                    }
+    .navbar a {
+        margin: 0 1rem;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .none {
+        display: unset;
+    }
 
+    .navbar a {
+        margin: 0 2rem;
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .none {
+        display: unset;
+    }
+
+    .navbar a {
+        margin: 0 2rem;
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .none {
+        display: unset;
+    }
+
+    .navbar a {
+        margin: 0 5rem 0 0;
+        font-size: 4rem;
+    }
+}
