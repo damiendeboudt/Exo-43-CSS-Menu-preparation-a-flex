@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+#menu{
+    width: 100%;
+    background:radial-gradient(greenyellow, white);
+    padding-top: 1rem;
+    position: fixed;
+    height: 5rem;
+}
+.navbar, a {
+    text-decoration: none;
+    text-align: right;
+    color: #606060;
+    margin: 0 6rem;
+    font-size: 3rem;
+    transition: all;
+    transition-duration: 5s;
+    font-style: italic;
+    font-weight: bolder;
+}
+li{
+    display:inline-block;
+}
+a:hover {
+    color: #a9e16c;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px #8c8c8c;
+    border-radius: 20px;
+    padding: 0.3rem;
+    background-color: #ffffff;
+    text-shadow: 1px black;
+}
+@media screen and (max-width: 1652px) {
+    .navbar, a {
+        text-decoration: none;
+        text-align: right;
+        color: #606060;
+        margin: 0 4rem;
+        font-size: 3rem;
+        transition: all;
+        transition-duration: 5s;
+        font-style: italic;
+        font-weight: bolder;
+}
+    @media screen and (max-width: 1375px) {
+        .navbar, a {
+            text-decoration: none;
+            text-align: right;
+            color: #606060;
+            margin: 0 4rem;
+            font-size: 2rem;
+            transition: all;
+            transition-duration: 5s;
+            font-style: italic;
+            font-weight: bolder;
+        }
+        @media screen and (max-width: 1100px) {
+            .navbar, a {
+                text-decoration: none;
+                text-align: right;
+                color: #606060;
+                margin: 0 0;
+                font-size: 2.2rem;
+                transition: all;
+                transition-duration: 5s;
+                font-style: italic;
+                font-weight: bolder;
+            }
+            @media screen and (min-width: 768px) {
+                .navbar, a {
+                    text-decoration: none;
+                    text-align: right;
+                    color: #606060;
+                    margin: 0 1rem;
+                    font-size: 2.2rem;
+                    transition: all;
+                    transition-duration: 5s;
+                    font-style: italic;
+                    font-weight: bolder;
+                }
+                @media screen and (min-width: 992px) {
+                    .navbar, a {
+                        text-decoration: none;
+                        text-align: right;
+                        color: #606060;
+                        margin: 0 1rem;
+                        font-size: 2.7rem;
+                        transition: all;
+                        transition-duration: 5s;
+                        font-style: italic;
+                        font-weight: bolder;
+
+                    @media screen and (max-width: 600px) {
+                        .navbar, a {
+                            text-decoration: none;
+                            text-align: right;
+                            color: #606060;
+                            margin: 0 0rem;
+                            font-size: 1rem;
+                            transition: all;
+                            transition-duration: 5s;
+                            font-style: italic;
+                            font-weight: bolder;
+                        }
+                    }
+
